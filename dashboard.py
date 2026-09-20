@@ -3,7 +3,7 @@ from src.monty_hall_problem import monty_hall_game
 import time
 
 st.title(":zap: Monty Hall Simulation")
-
+st.image("https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Monty_open_door.svg/1280px-Monty_open_door.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail")
 num_games = st.number_input(
     "Enter number of games to simulate",
     min_value=1, max_value=10000, 
